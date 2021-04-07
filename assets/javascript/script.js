@@ -4,8 +4,9 @@ var kmDistance = parseInt (prompt("Quanti chilometri dovrai percorrere ?"));
 // *DEBUG* console.log(kmDistance);
 
 
-if (kmDistance >= 420);
+if (kmDistance >= 420){
 alert("Si prega di inserire il chilometraggio esatto, la nostra rete ferroviaria si estende per un totale di 420km");
+}
 
 //RICHIESTA ETA' PASSEGGERO
 
