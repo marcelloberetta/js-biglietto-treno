@@ -16,7 +16,7 @@ var passengerAge = parseInt (prompt("Quanti anni ha il passeggero che viaggerà 
 
 var prezzoPieno = (0.21 * kmDistance);
 
-var prezzoIntero = prezzoPieno.toFixed(2)
+var prezzoIntero = prezzoPieno.toFixed(2);
 
 var priceKm= 0.21;
 
@@ -37,7 +37,7 @@ if (passengerAge < 18 ){
  document.getElementById("prezzoBiglietto").innerHTML = "Il prezzo del tuo biglietto sarà " + scontoUnder18 + " €";
 }
 
-if (passengerAge > 18 && passengerAge < 65){
+if (passengerAge > 18 && passengerAge <= 65){
 
    document.getElementById("prezzoBiglietto").innerHTML = "Il prezzo del tuo biglietto sarà " + prezzoIntero + " €";
 
