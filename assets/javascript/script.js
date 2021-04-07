@@ -34,19 +34,19 @@ var sconto65 = scontoOver65.toFixed(2);
 
 if (passengerAge < 18 ){
 
- document.getElementById("prezzoBiglietto").innerHTML = "Il prezzo del tuo biglietto sarà " + scontoUnder18;
+ document.getElementById("prezzoBiglietto").innerHTML = "Il prezzo del tuo biglietto sarà " + scontoUnder18 + " €";
 }
 
 if (passengerAge > 18 && passengerAge < 65){
 
-   document.getElementById("prezzoBiglietto").innerHTML = "Il prezzo del tuo biglietto sarà " + prezzoIntero;
+   document.getElementById("prezzoBiglietto").innerHTML = "Il prezzo del tuo biglietto sarà " + prezzoIntero + " €";
 
    
 } 
 
 if (passengerAge > 65){
 
-   document.getElementById("prezzoBiglietto").innerHTML = "Il prezzo del tuo biglietto sarà " + sconto65;
+   document.getElementById("prezzoBiglietto").innerHTML = "Il prezzo del tuo biglietto sarà " + sconto65 + " €";
 }
 
 
